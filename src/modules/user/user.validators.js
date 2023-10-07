@@ -47,8 +47,7 @@ const registerUserValidator = [
     .notEmpty().withMessage('El password no debe estar vacio')
     .isString().withMessage('El valor de password debe ser string')
     .matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%-^&*]{8,}$/).withMessage(
-        "El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un acaracter especial")
-    ,
+        "El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un acaracter especial"),
     
     validateResult,
 ]

@@ -6,13 +6,6 @@ const path = require("node:path");
 const apiv1Routes = require('./routes/apiv1.routes');
 const errorRoutes = require('./routes/error.routes');
 
-require('dotenv').config();
-
-
-
-//servidor
-const PORT= process.env.PORT ?? 8000
-
 //MI EXPRESS
 const app = express()
 
@@ -24,6 +17,7 @@ app.use(cors())
 
 app.use("/avatar", express.static(path.join(__dirname, "../public")))
 
+
 app.get('/', (req, res) => {
     res.send('Ok')
 })
@@ -34,11 +28,9 @@ app.get('/', (req, res) => {
 apiv1Routes(app)
 
 //los middlewares de error siempre se ejecutan despues de todas nuestras rutas
-
 errorRoutes(app)
 
 
-//escuchando a mi servidor
-app.listen(PORT, () => {
-    console.log(`Servidor escuchando en el puerto ${PORT}`)
-})
+
+
+module.exports= app

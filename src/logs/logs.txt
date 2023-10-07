@@ -186,4 +186,63 @@
 {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-10-03T05:13:02.000Z"}
 
 =================ERROR  3/10/2023, 21:56:11=============
- 
+ =================ERROR  6/10/2023, 21:48:01=============
+ {"status":400,"error":["Falta lastname","El lasstname no debe ser vacio","El valor del lastname debe ser string","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+{"status":400,"error":["El valor bebe ser un email"]}
+
+=================ERROR  6/10/2023, 21:48:06=============
+ =================ERROR  6/10/2023, 21:48:11=============
+ {"status":400,"error":["El lasstname no debe ser vacio","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 21:51:07=============
+ {"status":400,"error":["Falta lastname","El lasstname no debe ser vacio","El valor del lastname debe ser string","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 21:51:12=============
+ {"status":400,"error":["El valor bebe ser un email"]}
+
+=================ERROR  6/10/2023, 21:51:17=============
+ {"status":400,"error":["El lasstname no debe ser vacio","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 21:54:27=============
+ {"status":400,"error":["Falta lastname","El lasstname no debe ser vacio","El valor del lastname debe ser string","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 21:54:32=============
+ {"status":400,"error":["El valor bebe ser un email"]}
+
+{"status":400,"error":["El lasstname no debe ser vacio","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 21:54:37=============
+ =================ERROR  6/10/2023, 21:56:36=============
+ {"status":400,"error":["Falta lastname","El lasstname no debe ser vacio","El valor del lastname debe ser string","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 21:56:41=============
+ {"status":400,"error":["El valor bebe ser un email"]}
+
+=================ERROR  6/10/2023, 21:56:46=============
+ {"status":400,"error":["El lasstname no debe ser vacio","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 21:59:49=============
+ {"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":213,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(shalalala@gmail.com).","schema":"public","table":"Users","constraint":"Users_email_key","file":"nbtinsert.c","line":"671","routine":"_bt_check_unique","sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";","parameters":["shalala","shalalal","shalalala@gmail.com","$2b$10$P1TJkx9SXC.oErzRYf9aheTAknVH/mhj6q7M.5fG3XJjAt05rBOs.","2023-10-07 03:59:49.232 +00:00","2023-10-07 03:59:49.232 +00:00"]},"original":{"length":213,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(shalalala@gmail.com).","schema":"public","table":"Users","constraint":"Users_email_key","file":"nbtinsert.c","line":"671","routine":"_bt_check_unique","sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";","parameters":["shalala","shalalal","shalalala@gmail.com","$2b$10$P1TJkx9SXC.oErzRYf9aheTAknVH/mhj6q7M.5fG3XJjAt05rBOs.","2023-10-07 03:59:49.232 +00:00","2023-10-07 03:59:49.232 +00:00"]},"fields":{},"sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";"}
+
+=================ERROR  6/10/2023, 21:59:50=============
+ {"status":400,"error":["Falta lastname","El lasstname no debe ser vacio","El valor del lastname debe ser string","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 21:59:55=============
+ {"status":400,"error":["El valor bebe ser un email"]}
+
+{"status":400,"error":["El lasstname no debe ser vacio","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 22:00:00=============
+ =================ERROR  6/10/2023, 22:01:38=============
+ {"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":213,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(shalalala@gmail.com).","schema":"public","table":"Users","constraint":"Users_email_key","file":"nbtinsert.c","line":"671","routine":"_bt_check_unique","sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";","parameters":["shalala","shalalal","shalalala@gmail.com","$2b$10$xcIIFFb9QdKnfR8VV0chLuTLhRF0U0RB4R/SJdNN4lD7DvOBFlyfW","2023-10-07 04:01:37.337 +00:00","2023-10-07 04:01:37.337 +00:00"]},"original":{"length":213,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(shalalala@gmail.com).","schema":"public","table":"Users","constraint":"Users_email_key","file":"nbtinsert.c","line":"671","routine":"_bt_check_unique","sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";","parameters":["shalala","shalalal","shalalala@gmail.com","$2b$10$xcIIFFb9QdKnfR8VV0chLuTLhRF0U0RB4R/SJdNN4lD7DvOBFlyfW","2023-10-07 04:01:37.337 +00:00","2023-10-07 04:01:37.337 +00:00"]},"fields":{},"sql":"INSERT INTO \"Users\" (\"id\",\"firstname\",\"lastname\",\"email\",\"password\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"id\",\"firstname\",\"lastname\",\"email\",\"avatar\",\"password\",\"description\",\"validEmail\",\"createdAt\",\"updatedAt\";"}
+
+{"status":400,"error":["Falta lastname","El lasstname no debe ser vacio","El valor del lastname debe ser string","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
+=================ERROR  6/10/2023, 22:01:38=============
+ =================ERROR  6/10/2023, 22:01:43=============
+ {"status":400,"error":["El valor bebe ser un email"]}
+
+=================ERROR  6/10/2023, 22:01:48=============
+ {"status":400,"error":["El lasstname no debe ser vacio","La longitud del mensaje debe ser entre 2 y 50 caracteres","El lastname solo acepta letras"]}
+
